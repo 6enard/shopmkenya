@@ -3,11 +3,13 @@
     "id": 1,
     "name": "Studio Mkenya Black Hoodie",
     "category": "Hoodies",
-    "price": 65.00,
+    "price": 8450.00,
     "description": "Premium heavyweight hoodie with embroidered Studio Mkenya logo. Made from 100% organic cotton for ultimate comfort.",
     "image": "https://www.shutterstock.com/image-photo/mockup-oversized-black-hoodie-back-600nw-2489688969.jpg",
     "images": [
-      "https://www.shutterstock.com/image-photo/mockup-oversized-black-hoodie-back-600nw-2489688969.jpg"
+      "https://www.shutterstock.com/image-photo/mockup-oversized-black-hoodie-back-600nw-2489688969.jpg",
+      "https://images.pexels.com/photos/7679454/pexels-photo-7679454.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/8148579/pexels-photo-8148579.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": true,
@@ -18,11 +20,13 @@
     "id": 2,
     "name": "Minimalist Logo T-Shirt",
     "category": "T-Shirts",
-    "price": 32.00,
+    "price": 4160.00,
     "description": "Classic crew neck t-shirt featuring a minimalist Studio Mkenya logo print. Soft, breathable fabric perfect for everyday wear.",
     "image": "https://watc-studio.com/cdn/shop/files/navy.blue_boxytee.front_091627b6-edc7-4f9d-b371-737c858e1573.jpg?v=1721395244&width=640",
     "images": [
-      "https://watc-studio.com/cdn/shop/files/navy.blue_boxytee.front_091627b6-edc7-4f9d-b371-737c858e1573.jpg?v=1721395244&width=640"
+      "https://watc-studio.com/cdn/shop/files/navy.blue_boxytee.front_091627b6-edc7-4f9d-b371-737c858e1573.jpg?v=1721395244&width=640",
+      "https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/3755706/pexels-photo-3755706.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": true,
@@ -33,11 +37,12 @@
     "id": 3,
     "name": "Ceramic Coffee Mug",
     "category": "Mugs & Cups",
-    "price": 18.99,
+    "price": 2470.00,
     "description": "Handcrafted ceramic mug with Studio Mkenya branding. Microwave and dishwasher safe.",
     "image": "https://resourceboy.com/wp-content/uploads/2023/08/front-view-of-realistic-ceramic-mug-mockup-2.jpg",
     "images": [
-      "https://resourceboy.com/wp-content/uploads/2023/08/front-view-of-realistic-ceramic-mug-mockup-2.jpg"
+      "https://resourceboy.com/wp-content/uploads/2023/08/front-view-of-realistic-ceramic-mug-mockup-2.jpg",
+      "https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": false,
@@ -48,11 +53,12 @@
     "id": 4,
     "name": "Abstract Canvas Print",
     "category": "Art Pieces",
-    "price": 125.00,
+    "price": 16250.00,
     "description": "Original abstract canvas featuring bold geometric shapes and contemporary African-inspired colors. Signed by the artist.",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdUbp2fkYlhDv96DOOUS9YmY-1zMibHzheaw&s",
     "images": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdUbp2fkYlhDv96DOOUS9YmY-1zMibHzheaw&s"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdUbp2fkYlhDv96DOOUS9YmY-1zMibHzheaw&s",
+      "https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": true,
@@ -63,11 +69,12 @@
     "id": 5,
     "name": "Olive Green Hoodie",
     "category": "Hoodies",
-    "price": 68.00,
+    "price": 8840.00,
     "description": "Relaxed fit hoodie in olive green with tonal Studio Mkenya embroidery. Features adjustable drawstrings and kangaroo pocket.",
     "image": "https://png.pngtree.com/png-vector/20250104/ourlarge/pngtree-emerald-green-hoodie-blank-mockup-transparent-background-png-image_15044881.png",
     "images": [
-      "https://png.pngtree.com/png-vector/20250104/ourlarge/pngtree-emerald-green-hoodie-blank-mockup-transparent-background-png-image_15044881.png"
+      "https://png.pngtree.com/png-vector/20250104/ourlarge/pngtree-emerald-green-hoodie-blank-mockup-transparent-background-png-image_15044881.png",
+      "https://images.pexels.com/photos/7679620/pexels-photo-7679620.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": false,
@@ -78,11 +85,12 @@
     "id": 6,
     "name": "Studio Signature T-Shirt",
     "category": "T-Shirts",
-    "price": 28.00,
+    "price": 3640.00,
     "description": "Essential t-shirt with Studio Mkenya signature graphic on back. Pre-shrunk for a perfect fit that lasts.",
     "image": "https://icon2.cleanpng.com/lnd/20241227/cz/5224c1bb845817ea6db702ae17fef7.webp",
     "images": [
-      "https://icon2.cleanpng.com/lnd/20241227/cz/5224c1bb845817ea6db702ae17fef7.webp"
+      "https://icon2.cleanpng.com/lnd/20241227/cz/5224c1bb845817ea6db702ae17fef7.webp",
+      "https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": true,
@@ -93,11 +101,12 @@
     "id": 7,
     "name": "Travel Tumbler Set",
     "category": "Mugs & Cups",
-    "price": 35.00,
+    "price": 4550.00,
     "description": "Insulated stainless steel tumbler with Studio Mkenya branding. Keeps drinks hot for 6 hours or cold for 12 hours.",
     "image": "https://resourceboy.com/wp-content/uploads/2023/08/front-view-of-realistic-ceramic-mug-mockup-2.jpg",
     "images": [
-      "https://resourceboy.com/wp-content/uploads/2023/08/front-view-of-realistic-ceramic-mug-mockup-2.jpg"
+      "https://resourceboy.com/wp-content/uploads/2023/08/front-view-of-realistic-ceramic-mug-mockup-2.jpg",
+      "https://images.pexels.com/photos/6347527/pexels-photo-6347527.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": false,
@@ -108,11 +117,12 @@
     "id": 8,
     "name": "Minimalist Line Art Print",
     "category": "Art Pieces",
-    "price": 85.00,
+    "price": 11050.00,
     "description": "Elegant minimalist line art print celebrating African forms and movement. Museum-quality archival print.",
     "image": "https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "images": [
-      "https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": false,
@@ -123,11 +133,12 @@
     "id": 9,
     "name": "Oversized Studio T-Shirt",
     "category": "T-Shirts",
-    "price": 38.00,
+    "price": 4940.00,
     "description": "Relaxed oversized fit t-shirt with large Studio Mkenya print. Perfect for a contemporary streetwear look.",
     "image": "https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "images": [
-      "https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/8148032/pexels-photo-8148032.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": false,
@@ -138,11 +149,12 @@
     "id": 10,
     "name": "Espresso Cup Set",
     "category": "Mugs & Cups",
-    "price": 42.00,
+    "price": 5460.00,
     "description": "Set of four handcrafted espresso cups with saucers. Each piece features unique Studio Mkenya design elements.",
     "image": "https://resourceboy.com/wp-content/uploads/2023/08/front-view-of-realistic-ceramic-mug-mockup-2.jpg",
     "images": [
-      "https://resourceboy.com/wp-content/uploads/2023/08/front-view-of-realistic-ceramic-mug-mockup-2.jpg"
+      "https://resourceboy.com/wp-content/uploads/2023/08/front-view-of-realistic-ceramic-mug-mockup-2.jpg",
+      "https://images.pexels.com/photos/302904/pexels-photo-302904.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": false,
     "featured": false,
@@ -153,11 +165,12 @@
     "id": 11,
     "name": "Contemporary African Portrait",
     "category": "Art Pieces",
-    "price": 195.00,
+    "price": 25350.00,
     "description": "Striking contemporary portrait celebrating African identity and culture. Limited edition of 50 prints, numbered and signed.",
     "image": "https://images.pexels.com/photos/3778361/pexels-photo-3778361.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "images": [
-      "https://images.pexels.com/photos/3778361/pexels-photo-3778361.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "https://images.pexels.com/photos/3778361/pexels-photo-3778361.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/1061622/pexels-photo-1061622.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": true,
@@ -168,11 +181,12 @@
     "id": 12,
     "name": "Charcoal Grey Hoodie",
     "category": "Hoodies",
-    "price": 65.00,
+    "price": 8450.00,
     "description": "Premium charcoal grey hoodie with contrast white embroidery. Featuring ribbed cuffs and hem for a refined finish.",
     "image": "https://www.shutterstock.com/image-photo/mockup-oversized-black-hoodie-back-600nw-2489688969.jpg",
     "images": [
-      "https://www.shutterstock.com/image-photo/mockup-oversized-black-hoodie-back-600nw-2489688969.jpg"
+      "https://www.shutterstock.com/image-photo/mockup-oversized-black-hoodie-back-600nw-2489688969.jpg",
+      "https://images.pexels.com/photos/7679668/pexels-photo-7679668.jpeg?auto=compress&cs=tinysrgb&w=1200"
     ],
     "inStock": true,
     "featured": false,

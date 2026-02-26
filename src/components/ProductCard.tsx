@@ -33,7 +33,7 @@ export default function ProductCard({ product, onNavigate }: ProductCardProps) {
         <div className="flex justify-between items-center">
           <p className="text-xs uppercase tracking-wider text-gray-500">{product.category}</p>
           <span className="text-black font-normal">
-            ${product.price.toFixed(2)}
+            KES {product.price.toLocaleString('en-KE', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
           </span>
         </div>
       </div>

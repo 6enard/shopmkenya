@@ -65,7 +65,7 @@ export default function FeaturedCarousel({ products, onNavigate }: FeaturedCarou
               Shop Now
             </button>
             <span className="text-2xl md:text-3xl font-light text-white">
-              ${currentProduct.price.toFixed(2)}
+              KES {currentProduct.price.toLocaleString('en-KE', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
             </span>
           </div>
         </div>

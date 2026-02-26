@@ -83,7 +83,7 @@ export default function ProductDetail({ productId, onNavigate }: ProductDetailPr
             <div>
               <p className="text-[11px] uppercase tracking-wider text-gray-500 mb-4">{product.category}</p>
               <h1 className="text-4xl md:text-5xl font-light text-black mb-6 tracking-tight leading-tight">{product.name}</h1>
-              <p className="text-3xl font-light text-black">${product.price.toFixed(2)}</p>
+              <p className="text-3xl font-light text-black">KES {product.price.toLocaleString('en-KE', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
             </div>
 
             <div className="border-t border-gray-200 pt-8">

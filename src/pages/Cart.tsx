@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import { Minus, Plus, Trash2, ShoppingBag } from 'lucide-react';
 import { useCart } from '../context/CartContext';
+import MpesaCheckoutModal from '../components/MpesaCheckoutModal';
 
 interface CartProps {
   onNavigate: (path: string) => void;
@@ -7,6 +9,11 @@ interface CartProps {
 
 export default function Cart({ onNavigate }: CartProps) {
   const { items, updateQuantity, removeFromCart, getTotalPrice, clearCart } = useCart();
+  const [showMpesaModal, setShowMpesaModal] = useState(false);
+
+  const handleCheckoutSuccess = () => {
+    clearCart();
+  };
 
   if (items.length === 0) {
     return (
@@ -96,7 +103,7 @@ export default function Cart({ onNavigate }: CartProps) {
                     </div>
 
                     <p className="font-light text-black text-lg">
-                      ${(item.product.price * item.quantity).toFixed(2)}
+                      KES {(item.product.price * item.quantity).toLocaleString('en-KE', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
                     </p>
                   </div>
                 </div>
@@ -111,7 +118,7 @@ export default function Cart({ onNavigate }: CartProps) {
               <div className="space-y-4 mb-8">
                 <div className="flex justify-between text-gray-700 font-light">
                   <span className="text-[13px]">Subtotal</span>
-                  <span>${getTotalPrice().toFixed(2)}</span>
+                  <span>KES {getTotalPrice().toLocaleString('en-KE', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                 </div>
                 <div className="flex justify-between text-gray-700 font-light">
                   <span className="text-[13px]">Shipping</span>
@@ -119,12 +126,15 @@ export default function Cart({ onNavigate }: CartProps) {
                 </div>
                 <div className="border-t border-gray-200 pt-4 flex justify-between text-black">
                   <span className="text-sm uppercase tracking-wider font-medium">Total</span>
-                  <span className="text-lg font-light">${getTotalPrice().toFixed(2)}</span>
+                  <span className="text-lg font-light">KES {getTotalPrice().toLocaleString('en-KE', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
                 </div>
               </div>
 
-              <button className="w-full bg-black text-white py-5 px-6 text-[11px] uppercase tracking-wider font-medium hover:bg-[#1498d4] transition-all duration-300 mb-4">
-                Proceed to Checkout
+              <button
+                onClick={() => setShowMpesaModal(true)}
+                className="w-full bg-black text-white py-5 px-6 text-[11px] uppercase tracking-wider font-medium hover:bg-[#1498d4] transition-all duration-300 mb-4"
+              >
+                Pay with M-Pesa
               </button>
 
               <button
@@ -137,6 +147,13 @@ export default function Cart({ onNavigate }: CartProps) {
           </div>
         </div>
       </div>
+
+      <MpesaCheckoutModal
+        isOpen={showMpesaModal}
+        onClose={() => setShowMpesaModal(false)}
+        totalAmount={getTotalPrice()}
+        onSuccess={handleCheckoutSuccess}
+      />
     </div>
   );
 }
