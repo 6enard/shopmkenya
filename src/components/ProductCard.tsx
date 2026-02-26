@@ -20,7 +20,7 @@ export default function ProductCard({ product, onNavigate }: ProductCardProps) {
           </div>
         )}
         {product.featured && (
-          <div className="absolute top-4 left-4 bg-[#B0D80A] text-black text-[10px] font-bold uppercase tracking-wider px-3 py-1.5">
+          <div className="absolute top-4 left-4 bg-[#1498d4] text-white text-[10px] font-bold uppercase tracking-wider px-3 py-1.5">
             Featured
           </div>
         )}
