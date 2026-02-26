@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Abstract Canvas Print",
+    "category": "Prints",
+    "price": 89.99,
+    "description": "A stunning abstract canvas print featuring bold geometric shapes and contemporary colors. Perfect for modern interiors.",
+    "image": "https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": true,
+    "dimensions": "24\" x 36\"",
+    "material": "Canvas on wooden frame"
+  },
+  {
+    "id": 2,
+    "name": "Minimalist Line Art",
+    "category": "Prints",
+    "price": 65.00,
+    "description": "Elegant minimalist line art print that adds sophistication to any space. Hand-drawn design printed on premium paper.",
+    "image": "https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": true,
+    "dimensions": "18\" x 24\"",
+    "material": "Archival quality paper"
+  },
+  {
+    "id": 3,
+    "name": "Studio Tote Bag",
+    "category": "Merchandise",
+    "price": 24.99,
+    "description": "Durable cotton tote bag featuring our studio logo. Perfect for carrying art supplies or everyday essentials.",
+    "image": "https://images.pexels.com/photos/7679862/pexels-photo-7679862.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/7679862/pexels-photo-7679862.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": false,
+    "dimensions": "15\" x 16\"",
+    "material": "100% organic cotton"
+  },
+  {
+    "id": 4,
+    "name": "Contemporary Art Book",
+    "category": "Books",
+    "price": 45.00,
+    "description": "A curated collection of contemporary art pieces from emerging African artists. Limited edition hardcover.",
+    "image": "https://images.pexels.com/photos/4855373/pexels-photo-4855373.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/4855373/pexels-photo-4855373.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": true,
+    "dimensions": "9\" x 12\"",
+    "material": "Hardcover, 240 pages"
+  },
+  {
+    "id": 5,
+    "name": "Architectural Photography Print",
+    "category": "Prints",
+    "price": 79.99,
+    "description": "Professional architectural photography capturing modern African design. Museum-quality print.",
+    "image": "https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": false,
+    "dimensions": "20\" x 30\"",
+    "material": "Fine art paper"
+  },
+  {
+    "id": 6,
+    "name": "Studio Notebook Set",
+    "category": "Merchandise",
+    "price": 32.00,
+    "description": "Set of three premium notebooks with minimalist design. Perfect for sketching and note-taking.",
+    "image": "https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": false,
+    "dimensions": "5.5\" x 8.5\" each",
+    "material": "Premium paper, hardcover"
+  },
+  {
+    "id": 7,
+    "name": "Colorful Abstract Series",
+    "category": "Prints",
+    "price": 95.00,
+    "description": "Vibrant abstract art print from our exclusive series. Bold colors and dynamic composition.",
+    "image": "https://images.pexels.com/photos/1839904/pexels-photo-1839904.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1839904/pexels-photo-1839904.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": false,
+    "featured": false,
+    "dimensions": "24\" x 36\"",
+    "material": "Canvas on wooden frame"
+  },
+  {
+    "id": 8,
+    "name": "Ceramic Coffee Mug",
+    "category": "Merchandise",
+    "price": 18.99,
+    "description": "Handcrafted ceramic mug with studio branding. Microwave and dishwasher safe.",
+    "image": "https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": false,
+    "dimensions": "3.5\" x 4\"",
+    "material": "Ceramic"
+  },
+  {
+    "id": 9,
+    "name": "Black & White Photography",
+    "category": "Prints",
+    "price": 72.00,
+    "description": "Timeless black and white photography capturing urban landscapes. Limited edition print.",
+    "image": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": true,
+    "dimensions": "18\" x 24\"",
+    "material": "Archival quality paper"
+  }
+]
