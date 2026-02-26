@@ -53,7 +53,7 @@ export default function Contact() {
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-3 border border-gray-200 focus:border-black outline-none transition-colors duration-200 font-light"
+                  className="w-full px-4 py-3 border border-gray-200 focus:border-[#1498d4] outline-none transition-colors duration-200 font-light"
                 />
               </div>
 
@@ -64,7 +64,7 @@ export default function Contact() {
                 <input
                   type="email"
                   id="email"
-                  className="w-full px-4 py-3 border border-gray-200 focus:border-black outline-none transition-colors duration-200 font-light"
+                  className="w-full px-4 py-3 border border-gray-200 focus:border-[#1498d4] outline-none transition-colors duration-200 font-light"
                 />
               </div>
 
@@ -75,13 +75,13 @@ export default function Contact() {
                 <textarea
                   id="message"
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-200 focus:border-black outline-none resize-none transition-colors duration-200 font-light"
+                  className="w-full px-4 py-3 border border-gray-200 focus:border-[#1498d4] outline-none resize-none transition-colors duration-200 font-light"
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-black text-white py-4 px-6 text-[11px] uppercase tracking-wider font-medium hover:bg-[#B0D80A] hover:text-black transition-all duration-300"
+                className="w-full bg-black text-white py-4 px-6 text-[11px] uppercase tracking-wider font-medium hover:bg-[#1498d4] transition-all duration-300"
               >
                 Send Message
               </button>

@@ -35,7 +35,7 @@ export default function Shop({ onNavigate }: ShopProps) {
                 className={`px-6 py-2.5 text-[11px] uppercase tracking-wider font-medium transition-all duration-200 ${
                   selectedCategory === category
                     ? 'bg-black text-white'
-                    : 'bg-white text-gray-600 border border-gray-200 hover:border-black hover:text-black'
+                    : 'bg-white text-gray-600 border border-gray-200 hover:border-[#1498d4] hover:text-[#1498d4]'
                 }`}
               >
                 {category}

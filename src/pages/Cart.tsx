@@ -17,7 +17,7 @@ export default function Cart({ onNavigate }: CartProps) {
           <p className="text-gray-500 mb-8 font-light">Add some products to get started</p>
           <button
             onClick={() => onNavigate('/')}
-            className="bg-black text-white px-10 py-4 text-[11px] uppercase tracking-wider font-medium hover:bg-[#B0D80A] hover:text-black transition-all duration-300"
+            className="bg-black text-white px-10 py-4 text-[11px] uppercase tracking-wider font-medium hover:bg-[#1498d4] transition-all duration-300"
           >
             Continue Shopping
           </button>
@@ -33,7 +33,7 @@ export default function Cart({ onNavigate }: CartProps) {
           <h1 className="text-4xl md:text-5xl font-light text-black tracking-tight">Cart</h1>
           <button
             onClick={clearCart}
-            className="text-[11px] uppercase tracking-wider text-gray-500 hover:text-black transition-colors font-medium"
+            className="text-[11px] uppercase tracking-wider text-gray-500 hover:text-[#1498d4] transition-colors font-medium"
           >
             Clear cart
           </button>
@@ -61,14 +61,14 @@ export default function Cart({ onNavigate }: CartProps) {
                   <div>
                     <div className="flex justify-between items-start gap-4 mb-2">
                       <h3
-                        className="font-light text-black text-lg cursor-pointer hover:opacity-70 transition-opacity"
+                        className="font-light text-black text-lg cursor-pointer hover:text-[#1498d4] transition-colors"
                         onClick={() => onNavigate(`/product/${item.product.id}`)}
                       >
                         {item.product.name}
                       </h3>
                       <button
                         onClick={() => removeFromCart(item.product.id)}
-                        className="text-gray-400 hover:text-black transition-colors"
+                        className="text-gray-400 hover:text-[#1498d4] transition-colors"
                       >
                         <Trash2 size={18} strokeWidth={1.5} />
                       </button>
@@ -80,7 +80,7 @@ export default function Cart({ onNavigate }: CartProps) {
                     <div className="flex items-center gap-4">
                       <button
                         onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
-                        className="w-8 h-8 border border-gray-300 flex items-center justify-center hover:border-black transition-colors"
+                        className="w-8 h-8 border border-gray-300 flex items-center justify-center hover:border-[#1498d4] hover:text-[#1498d4] transition-colors"
                       >
                         <Minus size={12} strokeWidth={1.5} />
                       </button>
@@ -89,7 +89,7 @@ export default function Cart({ onNavigate }: CartProps) {
                       </span>
                       <button
                         onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
-                        className="w-8 h-8 border border-gray-300 flex items-center justify-center hover:border-black transition-colors"
+                        className="w-8 h-8 border border-gray-300 flex items-center justify-center hover:border-[#1498d4] hover:text-[#1498d4] transition-colors"
                       >
                         <Plus size={12} strokeWidth={1.5} />
                       </button>
@@ -123,13 +123,13 @@ export default function Cart({ onNavigate }: CartProps) {
                 </div>
               </div>
 
-              <button className="w-full bg-black text-white py-5 px-6 text-[11px] uppercase tracking-wider font-medium hover:bg-[#B0D80A] hover:text-black transition-all duration-300 mb-4">
+              <button className="w-full bg-black text-white py-5 px-6 text-[11px] uppercase tracking-wider font-medium hover:bg-[#1498d4] transition-all duration-300 mb-4">
                 Proceed to Checkout
               </button>
 
               <button
                 onClick={() => onNavigate('/')}
-                className="w-full text-black py-4 px-6 text-[11px] uppercase tracking-wider font-medium border border-gray-300 hover:border-black transition-colors duration-200"
+                className="w-full text-black py-4 px-6 text-[11px] uppercase tracking-wider font-medium border border-gray-300 hover:border-[#1498d4] hover:text-[#1498d4] transition-colors duration-200"
               >
                 Continue Shopping
               </button>

@@ -41,7 +41,7 @@ export default function Header({ onNavigate, currentRoute }: HeaderProps) {
                 className={`text-[13px] uppercase tracking-wider font-medium transition-all duration-200 ${
                   currentRoute === item.path
                     ? 'text-black'
-                    : 'text-gray-500 hover:text-black'
+                    : 'text-gray-500 hover:text-[#1498d4]'
                 }`}
               >
                 {item.label}
@@ -52,7 +52,7 @@ export default function Header({ onNavigate, currentRoute }: HeaderProps) {
           <div className="flex items-center gap-6">
             <button
               onClick={() => onNavigate('/cart')}
-              className="relative p-1 text-black hover:opacity-70 transition-opacity duration-200"
+              className="relative p-1 text-black hover:text-[#1498d4] transition-colors duration-200"
             >
               <ShoppingCart size={22} strokeWidth={1.5} />
               {totalItems > 0 && (
@@ -64,7 +64,7 @@ export default function Header({ onNavigate, currentRoute }: HeaderProps) {
 
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-1 text-black hover:opacity-70 transition-opacity"
+              className="md:hidden p-1 text-black hover:text-[#1498d4] transition-colors"
             >
               {mobileMenuOpen ? <X size={22} strokeWidth={1.5} /> : <Menu size={22} strokeWidth={1.5} />}
             </button>
@@ -84,7 +84,7 @@ export default function Header({ onNavigate, currentRoute }: HeaderProps) {
                   className={`block w-full text-left px-4 py-3 text-[13px] uppercase tracking-wider font-medium transition-colors ${
                     currentRoute === item.path
                       ? 'text-black'
-                      : 'text-gray-500 hover:text-black'
+                      : 'text-gray-500 hover:text-[#1498d4]'
                   }`}
                 >
                   {item.label}

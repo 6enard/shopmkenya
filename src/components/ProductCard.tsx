@@ -27,7 +27,7 @@ export default function ProductCard({ product, onNavigate }: ProductCardProps) {
       </div>
 
       <div className="space-y-2">
-        <h3 className="font-light text-black text-lg group-hover:opacity-70 transition-opacity duration-200">
+        <h3 className="font-light text-black text-lg group-hover:text-[#1498d4] transition-colors duration-200">
           {product.name}
         </h3>
         <div className="flex justify-between items-center">

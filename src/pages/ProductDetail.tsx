@@ -25,7 +25,7 @@ export default function ProductDetail({ productId, onNavigate }: ProductDetailPr
           <h2 className="text-2xl font-light text-black mb-6">Product not found</h2>
           <button
             onClick={() => onNavigate('/')}
-            className="text-gray-600 hover:text-black inline-flex items-center gap-2 transition-colors"
+            className="text-gray-600 hover:text-[#1498d4] inline-flex items-center gap-2 transition-colors"
           >
             <ArrowLeft size={18} strokeWidth={1.5} />
             <span className="text-sm uppercase tracking-wider">Back to shop</span>
@@ -46,7 +46,7 @@ export default function ProductDetail({ productId, onNavigate }: ProductDetailPr
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-12">
         <button
           onClick={() => onNavigate('/')}
-          className="text-gray-500 hover:text-black inline-flex items-center gap-2 mb-12 transition-colors duration-200"
+          className="text-gray-500 hover:text-[#1498d4] inline-flex items-center gap-2 mb-12 transition-colors duration-200"
         >
           <ArrowLeft size={18} strokeWidth={1.5} />
           <span className="text-[11px] uppercase tracking-wider font-medium">Back</span>
@@ -69,7 +69,7 @@ export default function ProductDetail({ productId, onNavigate }: ProductDetailPr
                     key={idx}
                     onClick={() => setSelectedImage(idx)}
                     className={`aspect-square bg-gray-50 overflow-hidden border-2 transition-colors duration-200 ${
-                      selectedImage === idx ? 'border-black' : 'border-transparent hover:border-gray-300'
+                      selectedImage === idx ? 'border-black' : 'border-transparent hover:border-[#1498d4]'
                     }`}
                   >
                     <img src={img} alt={`${product.name} ${idx + 1}`} className="w-full h-full object-cover" />
@@ -108,14 +108,14 @@ export default function ProductDetail({ productId, onNavigate }: ProductDetailPr
                   <div className="flex items-center gap-4">
                     <button
                       onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                      className="w-10 h-10 border border-gray-300 flex items-center justify-center hover:border-black transition-colors duration-200"
+                      className="w-10 h-10 border border-gray-300 flex items-center justify-center hover:border-[#1498d4] hover:text-[#1498d4] transition-colors duration-200"
                     >
                       <Minus size={14} strokeWidth={1.5} />
                     </button>
                     <span className="w-12 text-center font-light text-black">{quantity}</span>
                     <button
                       onClick={() => setQuantity(quantity + 1)}
-                      className="w-10 h-10 border border-gray-300 flex items-center justify-center hover:border-black transition-colors duration-200"
+                      className="w-10 h-10 border border-gray-300 flex items-center justify-center hover:border-[#1498d4] hover:text-[#1498d4] transition-colors duration-200"
                     >
                       <Plus size={14} strokeWidth={1.5} />
                     </button>
@@ -124,7 +124,7 @@ export default function ProductDetail({ productId, onNavigate }: ProductDetailPr
 
                 <button
                   onClick={handleAddToCart}
-                  className="w-full bg-black text-white py-5 px-8 text-[11px] uppercase tracking-wider font-medium hover:bg-[#B0D80A] hover:text-black transition-all duration-300"
+                  className="w-full bg-black text-white py-5 px-8 text-[11px] uppercase tracking-wider font-medium hover:bg-[#1498d4] transition-all duration-300"
                 >
                   {addedToCart ? 'Added to Cart' : 'Add to Cart'}
                 </button>

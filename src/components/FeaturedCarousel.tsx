@@ -60,7 +60,7 @@ export default function FeaturedCarousel({ products, onNavigate }: FeaturedCarou
           <div className="flex items-center gap-6">
             <button
               onClick={() => onNavigate(`/product/${currentProduct.id}`)}
-              className="bg-black text-white px-10 py-4 text-sm uppercase tracking-wider font-medium hover:bg-[#B0D80A] hover:text-black transition-all duration-300"
+              className="bg-black text-white px-10 py-4 text-sm uppercase tracking-wider font-medium hover:bg-[#1498d4] hover:text-white transition-all duration-300"
             >
               Shop Now
             </button>
