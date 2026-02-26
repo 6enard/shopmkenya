@@ -28,10 +28,10 @@ export default function ProductCard({ product, onNavigate }: ProductCardProps) {
 
       <div className="space-y-1">
         <div className="flex justify-between items-start gap-2">
-          <h3 className="font-medium text-gray-900 group-hover:text-[#1498d4] transition-colors">
+          <h3 className="font-medium text-gray-900 group-hover:text-gray-600 transition-colors">
             {product.name}
           </h3>
-          <span className="text-[#1498d4] font-bold whitespace-nowrap">
+          <span className="text-gray-900 font-semibold whitespace-nowrap">
             ${product.price.toFixed(2)}
           </span>
         </div>

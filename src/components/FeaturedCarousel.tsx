@@ -35,40 +35,40 @@ export default function FeaturedCarousel({ products, onNavigate }: FeaturedCarou
   const currentProduct = products[currentIndex];
 
   return (
-    <section className="relative h-[70vh] min-h-[500px] bg-gradient-to-br from-[#1498d4] to-[#0d7ab8] overflow-hidden">
+    <section className="relative h-[70vh] min-h-[500px] bg-gradient-to-b from-gray-50 to-white overflow-hidden">
       <div className="absolute inset-0">
         <img
           src={currentProduct.image}
           alt={currentProduct.name}
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover"
         />
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/20 to-transparent"></div>
 
       <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
-        <div className="max-w-2xl text-white">
-          <div className="inline-block bg-[#fae714] text-gray-900 text-xs font-bold px-4 py-2 rounded-full mb-4">
+        <div className="max-w-2xl">
+          <div className="inline-block border border-white/40 text-white text-xs font-semibold px-3 py-1 rounded-full mb-6">
             FEATURED
           </div>
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-white leading-tight">
             {currentProduct.name}
           </h2>
-          <p className="text-xl md:text-2xl mb-2 text-gray-200">
+          <p className="text-lg md:text-xl mb-3 text-white/80">
             {currentProduct.category}
           </p>
-          <p className="text-lg md:text-xl mb-8 text-gray-300 line-clamp-2">
+          <p className="text-base md:text-lg mb-8 text-white/70 line-clamp-2">
             {currentProduct.description}
           </p>
           <div className="flex items-center gap-6">
-            <span className="text-4xl md:text-5xl font-bold text-[#fae714]">
+            <span className="text-3xl md:text-4xl font-bold text-white">
               ${currentProduct.price.toFixed(2)}
             </span>
             <button
               onClick={() => onNavigate(`/product/${currentProduct.id}`)}
-              className="bg-[#fae714] text-gray-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#e8d510] transition-colors"
+              className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold text-base hover:bg-gray-100 transition-colors"
             >
-              Shop Now
+              View Product
             </button>
           </div>
         </div>
@@ -95,10 +95,10 @@ export default function FeaturedCarousel({ products, onNavigate }: FeaturedCarou
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all ${
+            className={`w-2 h-2 rounded-full transition-all ${
               index === currentIndex
-                ? 'bg-[#fae714] w-8'
-                : 'bg-white/50 hover:bg-white/75'
+                ? 'bg-white w-6'
+                : 'bg-white/40 hover:bg-white/60'
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />

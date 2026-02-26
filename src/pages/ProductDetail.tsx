@@ -83,7 +83,7 @@ export default function ProductDetail({ productId, onNavigate }: ProductDetailPr
             <div>
               <p className="text-sm text-gray-500 mb-2">{product.category}</p>
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{product.name}</h1>
-              <p className="text-3xl font-bold text-[#1498d4]">${product.price.toFixed(2)}</p>
+              <p className="text-3xl font-bold text-gray-900">${product.price.toFixed(2)}</p>
             </div>
 
             <div className="border-t border-gray-200 pt-6">
@@ -124,7 +124,7 @@ export default function ProductDetail({ productId, onNavigate }: ProductDetailPr
 
                 <button
                   onClick={handleAddToCart}
-                  className="w-full bg-[#1498d4] text-white py-4 px-8 rounded-lg font-bold hover:bg-[#1180b8] transition-colors flex items-center justify-center gap-2"
+                  className="w-full bg-gray-900 text-white py-4 px-8 rounded-lg font-bold hover:bg-gray-800 transition-colors flex items-center justify-center gap-2"
                 >
                   <ShoppingCart size={20} />
                   {addedToCart ? 'Added to Cart!' : 'Add to Cart'}
