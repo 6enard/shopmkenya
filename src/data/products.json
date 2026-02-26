@@ -1,138 +1,182 @@
 [
   {
     "id": 1,
-    "name": "Abstract Canvas Print",
-    "category": "Prints",
-    "price": 89.99,
-    "description": "A stunning abstract canvas print featuring bold geometric shapes and contemporary colors. Perfect for modern interiors.",
-    "image": "https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "name": "Studio Mkenya Black Hoodie",
+    "category": "Hoodies",
+    "price": 65.00,
+    "description": "Premium heavyweight hoodie with embroidered Studio Mkenya logo. Made from 100% organic cotton for ultimate comfort.",
+    "image": "https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "https://images.pexels.com/photos/1194420/pexels-photo-1194420.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     "inStock": true,
     "featured": true,
-    "dimensions": "24\" x 36\"",
-    "material": "Canvas on wooden frame"
+    "dimensions": "S, M, L, XL, XXL",
+    "material": "100% organic cotton, 350gsm"
   },
   {
     "id": 2,
-    "name": "Minimalist Line Art",
-    "category": "Prints",
-    "price": 65.00,
-    "description": "Elegant minimalist line art print that adds sophistication to any space. Hand-drawn design printed on premium paper.",
-    "image": "https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "name": "Minimalist Logo T-Shirt",
+    "category": "T-Shirts",
+    "price": 32.00,
+    "description": "Classic crew neck t-shirt featuring a minimalist Studio Mkenya logo print. Soft, breathable fabric perfect for everyday wear.",
+    "image": "https://images.pexels.com/photos/8532619/pexels-photo-8532619.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/8532619/pexels-photo-8532619.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     "inStock": true,
     "featured": true,
-    "dimensions": "18\" x 24\"",
-    "material": "Archival quality paper"
+    "dimensions": "XS, S, M, L, XL, XXL",
+    "material": "100% combed cotton"
   },
   {
     "id": 3,
-    "name": "Studio Tote Bag",
-    "category": "Merchandise",
-    "price": 24.99,
-    "description": "Durable cotton tote bag featuring our studio logo. Perfect for carrying art supplies or everyday essentials.",
-    "image": "https://images.pexels.com/photos/7679862/pexels-photo-7679862.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/7679862/pexels-photo-7679862.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "inStock": true,
-    "featured": false,
-    "dimensions": "15\" x 16\"",
-    "material": "100% organic cotton"
-  },
-  {
-    "id": 4,
-    "name": "Contemporary Art Book",
-    "category": "Books",
-    "price": 45.00,
-    "description": "A curated collection of contemporary art pieces from emerging African artists. Limited edition hardcover.",
-    "image": "https://images.pexels.com/photos/4855373/pexels-photo-4855373.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/4855373/pexels-photo-4855373.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "inStock": true,
-    "featured": true,
-    "dimensions": "9\" x 12\"",
-    "material": "Hardcover, 240 pages"
-  },
-  {
-    "id": 5,
-    "name": "Architectural Photography Print",
-    "category": "Prints",
-    "price": 79.99,
-    "description": "Professional architectural photography capturing modern African design. Museum-quality print.",
-    "image": "https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/1109541/pexels-photo-1109541.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "inStock": true,
-    "featured": false,
-    "dimensions": "20\" x 30\"",
-    "material": "Fine art paper"
-  },
-  {
-    "id": 6,
-    "name": "Studio Notebook Set",
-    "category": "Merchandise",
-    "price": 32.00,
-    "description": "Set of three premium notebooks with minimalist design. Perfect for sketching and note-taking.",
-    "image": "https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/887751/pexels-photo-887751.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "inStock": true,
-    "featured": false,
-    "dimensions": "5.5\" x 8.5\" each",
-    "material": "Premium paper, hardcover"
-  },
-  {
-    "id": 7,
-    "name": "Colorful Abstract Series",
-    "category": "Prints",
-    "price": 95.00,
-    "description": "Vibrant abstract art print from our exclusive series. Bold colors and dynamic composition.",
-    "image": "https://images.pexels.com/photos/1839904/pexels-photo-1839904.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "images": [
-      "https://images.pexels.com/photos/1839904/pexels-photo-1839904.jpeg?auto=compress&cs=tinysrgb&w=800"
-    ],
-    "inStock": false,
-    "featured": false,
-    "dimensions": "24\" x 36\"",
-    "material": "Canvas on wooden frame"
-  },
-  {
-    "id": 8,
     "name": "Ceramic Coffee Mug",
-    "category": "Merchandise",
+    "category": "Mugs & Cups",
     "price": 18.99,
-    "description": "Handcrafted ceramic mug with studio branding. Microwave and dishwasher safe.",
+    "description": "Handcrafted ceramic mug with Studio Mkenya branding. Microwave and dishwasher safe.",
     "image": "https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
       "https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     "inStock": true,
     "featured": false,
-    "dimensions": "3.5\" x 4\"",
-    "material": "Ceramic"
+    "dimensions": "12oz capacity",
+    "material": "High-quality ceramic"
   },
   {
-    "id": 9,
-    "name": "Black & White Photography",
-    "category": "Prints",
-    "price": 72.00,
-    "description": "Timeless black and white photography capturing urban landscapes. Limited edition print.",
-    "image": "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "id": 4,
+    "name": "Abstract Canvas Print",
+    "category": "Art Pieces",
+    "price": 125.00,
+    "description": "Original abstract canvas featuring bold geometric shapes and contemporary African-inspired colors. Signed by the artist.",
+    "image": "https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=800",
     "images": [
-      "https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "https://images.pexels.com/photos/1839919/pexels-photo-1839919.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     "inStock": true,
     "featured": true,
+    "dimensions": "24\" x 36\"",
+    "material": "Canvas on wooden frame"
+  },
+  {
+    "id": 5,
+    "name": "Olive Green Hoodie",
+    "category": "Hoodies",
+    "price": 68.00,
+    "description": "Relaxed fit hoodie in olive green with tonal Studio Mkenya embroidery. Features adjustable drawstrings and kangaroo pocket.",
+    "image": "https://images.pexels.com/photos/8532615/pexels-photo-8532615.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/8532615/pexels-photo-8532615.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": false,
+    "dimensions": "S, M, L, XL, XXL",
+    "material": "80% cotton, 20% recycled polyester"
+  },
+  {
+    "id": 6,
+    "name": "Studio Signature T-Shirt",
+    "category": "T-Shirts",
+    "price": 28.00,
+    "description": "Essential t-shirt with Studio Mkenya signature graphic on back. Pre-shrunk for a perfect fit that lasts.",
+    "image": "https://images.pexels.com/photos/9558579/pexels-photo-9558579.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/9558579/pexels-photo-9558579.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": true,
+    "dimensions": "XS, S, M, L, XL, XXL",
+    "material": "100% ring-spun cotton"
+  },
+  {
+    "id": 7,
+    "name": "Travel Tumbler Set",
+    "category": "Mugs & Cups",
+    "price": 35.00,
+    "description": "Insulated stainless steel tumbler with Studio Mkenya branding. Keeps drinks hot for 6 hours or cold for 12 hours.",
+    "image": "https://images.pexels.com/photos/6802047/pexels-photo-6802047.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/6802047/pexels-photo-6802047.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": false,
+    "dimensions": "16oz capacity",
+    "material": "Double-wall stainless steel"
+  },
+  {
+    "id": 8,
+    "name": "Minimalist Line Art Print",
+    "category": "Art Pieces",
+    "price": 85.00,
+    "description": "Elegant minimalist line art print celebrating African forms and movement. Museum-quality archival print.",
+    "image": "https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/1143758/pexels-photo-1143758.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": false,
     "dimensions": "18\" x 24\"",
-    "material": "Archival quality paper"
+    "material": "Archival quality paper, framed"
+  },
+  {
+    "id": 9,
+    "name": "Oversized Studio T-Shirt",
+    "category": "T-Shirts",
+    "price": 38.00,
+    "description": "Relaxed oversized fit t-shirt with large Studio Mkenya print. Perfect for a contemporary streetwear look.",
+    "image": "https://images.pexels.com/photos/8532617/pexels-photo-8532617.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/8532617/pexels-photo-8532617.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": false,
+    "dimensions": "S, M, L, XL, XXL",
+    "material": "100% heavyweight cotton"
+  },
+  {
+    "id": 10,
+    "name": "Espresso Cup Set",
+    "category": "Mugs & Cups",
+    "price": 42.00,
+    "description": "Set of four handcrafted espresso cups with saucers. Each piece features unique Studio Mkenya design elements.",
+    "image": "https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": false,
+    "featured": false,
+    "dimensions": "3oz capacity each",
+    "material": "Porcelain with matte glaze"
+  },
+  {
+    "id": 11,
+    "name": "Contemporary African Portrait",
+    "category": "Art Pieces",
+    "price": 195.00,
+    "description": "Striking contemporary portrait celebrating African identity and culture. Limited edition of 50 prints, numbered and signed.",
+    "image": "https://images.pexels.com/photos/3778361/pexels-photo-3778361.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/3778361/pexels-photo-3778361.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": true,
+    "dimensions": "30\" x 40\"",
+    "material": "Fine art print on canvas"
+  },
+  {
+    "id": 12,
+    "name": "Charcoal Grey Hoodie",
+    "category": "Hoodies",
+    "price": 65.00,
+    "description": "Premium charcoal grey hoodie with contrast white embroidery. Featuring ribbed cuffs and hem for a refined finish.",
+    "image": "https://images.pexels.com/photos/7679863/pexels-photo-7679863.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "images": [
+      "https://images.pexels.com/photos/7679863/pexels-photo-7679863.jpeg?auto=compress&cs=tinysrgb&w=800"
+    ],
+    "inStock": true,
+    "featured": false,
+    "dimensions": "S, M, L, XL, XXL",
+    "material": "100% organic cotton, 350gsm"
   }
 ]

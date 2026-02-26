@@ -1,7 +1,6 @@
 import { useState, useMemo } from 'react';
 import { Product } from '../types';
 import ProductCard from '../components/ProductCard';
-import FeaturedCarousel from '../components/FeaturedCarousel';
 import productsData from '../data/products.json';
 
 interface ShopProps {
@@ -22,17 +21,11 @@ export default function Shop({ onNavigate }: ShopProps) {
     return products.filter(p => p.category === selectedCategory);
   }, [selectedCategory, products]);
 
-  const featuredProducts = useMemo(() => {
-    return products.filter(p => p.featured);
-  }, [products]);
-
   return (
     <div className="min-h-screen bg-white">
-      <FeaturedCarousel products={featuredProducts} onNavigate={onNavigate} />
-
       <section className="max-w-[1400px] mx-auto px-6 lg:px-12 py-24">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6 mb-16">
-          <h2 className="text-3xl md:text-4xl font-light text-black tracking-tight">Collection</h2>
+          <h2 className="text-3xl md:text-4xl font-light text-black tracking-tight">Shop</h2>
 
           <div className="flex flex-wrap gap-3">
             {categories.map(category => (
