@@ -13,7 +13,7 @@ export default function FeaturedCarousel({ products, onNavigate }: FeaturedCarou
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % products.length);
-    }, 5000);
+    }, 6000);
 
     return () => clearInterval(timer);
   }, [products.length]);
@@ -35,70 +35,67 @@ export default function FeaturedCarousel({ products, onNavigate }: FeaturedCarou
   const currentProduct = products[currentIndex];
 
   return (
-    <section className="relative h-[70vh] min-h-[500px] bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+    <section className="relative h-[80vh] min-h-[600px] bg-white overflow-hidden">
       <div className="absolute inset-0">
         <img
           src={currentProduct.image}
           alt={currentProduct.name}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transition-opacity duration-700"
         />
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-black/20 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
 
-      <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
+      <div className="relative h-full max-w-[1400px] mx-auto px-6 lg:px-12 flex items-end pb-20">
         <div className="max-w-2xl">
-          <div className="inline-block border border-white/40 text-white text-xs font-semibold px-3 py-1 rounded-full mb-6">
-            FEATURED
+          <div className="inline-block bg-[#B0D80A] text-black text-[11px] font-bold uppercase tracking-wider px-4 py-1.5 mb-6">
+            Featured
           </div>
-          <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-white leading-tight">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-light mb-6 text-white leading-[1.1] tracking-tight">
             {currentProduct.name}
           </h2>
-          <p className="text-lg md:text-xl mb-3 text-white/80">
-            {currentProduct.category}
-          </p>
-          <p className="text-base md:text-lg mb-8 text-white/70 line-clamp-2">
+          <p className="text-lg md:text-xl mb-8 text-white/90 font-light max-w-xl">
             {currentProduct.description}
           </p>
           <div className="flex items-center gap-6">
-            <span className="text-3xl md:text-4xl font-bold text-white">
-              ${currentProduct.price.toFixed(2)}
-            </span>
             <button
               onClick={() => onNavigate(`/product/${currentProduct.id}`)}
-              className="bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold text-base hover:bg-gray-100 transition-colors"
+              className="bg-black text-white px-10 py-4 text-sm uppercase tracking-wider font-medium hover:bg-[#B0D80A] hover:text-black transition-all duration-300"
             >
-              View Product
+              Shop Now
             </button>
+            <span className="text-2xl md:text-3xl font-light text-white">
+              ${currentProduct.price.toFixed(2)}
+            </span>
           </div>
         </div>
       </div>
 
       <button
         onClick={goToPrevious}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-gray-900 p-3 rounded-full transition-colors"
+        className="absolute left-6 lg:left-12 top-1/2 -translate-y-1/2 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white p-3 transition-all duration-200"
         aria-label="Previous slide"
       >
-        <ChevronLeft size={24} />
+        <ChevronLeft size={20} strokeWidth={1.5} />
       </button>
 
       <button
         onClick={goToNext}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white text-gray-900 p-3 rounded-full transition-colors"
+        className="absolute right-6 lg:right-12 top-1/2 -translate-y-1/2 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white p-3 transition-all duration-200"
         aria-label="Next slide"
       >
-        <ChevronRight size={24} />
+        <ChevronRight size={20} strokeWidth={1.5} />
       </button>
 
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-3">
         {products.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={`w-2 h-2 rounded-full transition-all ${
+            className={`h-0.5 rounded-full transition-all duration-300 ${
               index === currentIndex
-                ? 'bg-white w-6'
-                : 'bg-white/40 hover:bg-white/60'
+                ? 'bg-[#B0D80A] w-12'
+                : 'bg-white/40 hover:bg-white/60 w-8'
             }`}
             aria-label={`Go to slide ${index + 1}`}
           />

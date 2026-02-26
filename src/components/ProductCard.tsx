@@ -8,34 +8,34 @@ interface ProductCardProps {
 export default function ProductCard({ product, onNavigate }: ProductCardProps) {
   return (
     <div className="group cursor-pointer" onClick={() => onNavigate(`/product/${product.id}`)}>
-      <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden mb-4 relative">
+      <div className="aspect-square bg-gray-50 overflow-hidden mb-6 relative">
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-500 ease-out"
         />
         {!product.inStock && (
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <span className="text-white font-medium">Out of Stock</span>
+          <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
+            <span className="text-white font-light text-sm uppercase tracking-wider">Out of Stock</span>
           </div>
         )}
         {product.featured && (
-          <div className="absolute top-3 left-3 bg-gray-900 text-white text-xs font-medium px-3 py-1 rounded-full">
+          <div className="absolute top-4 left-4 bg-[#B0D80A] text-black text-[10px] font-bold uppercase tracking-wider px-3 py-1.5">
             Featured
           </div>
         )}
       </div>
 
-      <div className="space-y-1">
-        <div className="flex justify-between items-start gap-2">
-          <h3 className="font-medium text-gray-900 group-hover:text-gray-600 transition-colors">
-            {product.name}
-          </h3>
-          <span className="text-gray-900 font-semibold whitespace-nowrap">
+      <div className="space-y-2">
+        <h3 className="font-light text-black text-lg group-hover:opacity-70 transition-opacity duration-200">
+          {product.name}
+        </h3>
+        <div className="flex justify-between items-center">
+          <p className="text-xs uppercase tracking-wider text-gray-500">{product.category}</p>
+          <span className="text-black font-normal">
             ${product.price.toFixed(2)}
           </span>
         </div>
-        <p className="text-sm text-gray-500">{product.category}</p>
       </div>
     </div>
   );
