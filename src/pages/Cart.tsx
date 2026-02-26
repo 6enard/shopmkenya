@@ -17,7 +17,7 @@ export default function Cart({ onNavigate }: CartProps) {
           <p className="text-gray-600 mb-6">Add some products to get started</p>
           <button
             onClick={() => onNavigate('/')}
-            className="bg-gray-900 text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors"
+            className="bg-[#1498d4] text-white px-8 py-3 rounded-lg font-bold hover:bg-[#1180b8] transition-colors"
           >
             Continue Shopping
           </button>
@@ -123,13 +123,13 @@ export default function Cart({ onNavigate }: CartProps) {
                 </div>
               </div>
 
-              <button className="w-full bg-gray-900 text-white py-4 px-6 rounded-lg font-medium hover:bg-gray-800 transition-colors mb-4">
+              <button className="w-full bg-[#1498d4] text-white py-4 px-6 rounded-lg font-bold hover:bg-[#1180b8] transition-colors mb-4">
                 Proceed to Checkout
               </button>
 
               <button
                 onClick={() => onNavigate('/')}
-                className="w-full text-gray-700 py-3 px-6 rounded-lg font-medium hover:bg-gray-100 transition-colors"
+                className="w-full text-gray-700 py-3 px-6 rounded-lg font-medium hover:bg-gray-100 transition-colors border border-gray-300"
               >
                 Continue Shopping
               </button>
